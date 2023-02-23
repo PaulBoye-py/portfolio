@@ -1,0 +1,9 @@
+name: pader-portfolio-deployment
+replicas: 2  
+  
+image: <+artifact.image>  
+dockercfg: <+artifact.imagePullSecret>  
+  
+createNamespace: true  
+namespace: <+infra.namespace>  
+...
