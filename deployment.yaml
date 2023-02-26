@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: pader-portfolio-deployment
-        image: pader/pader-portfolio
+        image: pader23/pader-portfolio
         resources:
           requests:
             cpu: "100m"
